@@ -1,6 +1,4 @@
-// exports.
-
-function Post(title, post) {
+exports.Post = function(title, post) {
   // this.date = date;
   this.title = title;
   this.post = post;
@@ -16,6 +14,6 @@ function Post(title, post) {
 //   return this.month + " " + this.day + ", " + this.year;
 // }
 
-Post.prototype.letterCount = function(){
+exports.Post.prototype.letterCount = function(){
   return this.post.length;
 }

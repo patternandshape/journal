@@ -4,7 +4,7 @@ $(document).ready(function(){
   $("form#new-post").submit(function(event){
 
     // var todayDate = $("#new-date").val();
-    var postTitle = $("#new-post-title").val();
+    var postTitle = $("input#new-post-title").val();
     var postEntry = $("#new-post-entry").val();
     var newPost = new Post(postTitle, postEntry);
     var count = newPost.letterCount();
