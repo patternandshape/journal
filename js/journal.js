@@ -1,19 +1,9 @@
-exports.Post = function(title, post) {
-  // this.date = date;
+exports.Post = function(title, date, post) {
+  this.date = date;
   this.title = title;
   this.post = post;
 }
 
-// function Date(month, day, year){
-//   this.month = month;
-//   this.day = day;
-//   this.year = year;
-// }
-
-// Date.prototype.fullDate = function(){
-//   return this.month + " " + this.day + ", " + this.year;
-// }
-
-exports.Post.prototype.letterCount = function(){
-  return this.post.length;
+exports.Post.prototype.wordCount = function(){
+  return this.post.split(' ').length;
 }
