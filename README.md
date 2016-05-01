@@ -13,6 +13,8 @@ Today's lesson was to create a journaling website where a user can write entries
 
 * JavaScript
 * Gulp
+* NPM
+* Node
 * HTML
 * CSS
 
