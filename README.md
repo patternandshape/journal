@@ -1,4 +1,4 @@
-#Treehouse Full-Page Animation Project
+#Journal
 
 March 14, 2016
 
